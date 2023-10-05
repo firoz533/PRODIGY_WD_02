@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="main">
+        <!-- <h1>Stopwatch</h1> -->
+        <p id="display">00:00:00</p>
+        <div class="btns">
+            <button id='stopWatch' onclick="stopWatch()">Start</button>
+            <button id='lap' onclick="reset()">Reset</button>
+        </div>
+    </div>
+    
+        <table id="lapTable">
+            <tr id="thead">
+                <th>Lap</th>
+                <th>Lap Time</th>
+                <th>Overall Time</th>
+            </tr>
+        </table>
+    
+
+</body>
+
+</html>
